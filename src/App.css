@@ -1,0 +1,35 @@
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(255, 255, 255);
+  border-radius:10px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(77, 77, 77, 0.349);
+}
+.custom-scroll {
+  scroll-margin-left:14rem;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: .8px solid gray;
+}
+ 
+/* Handle */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
